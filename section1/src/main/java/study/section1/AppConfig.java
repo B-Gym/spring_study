@@ -15,6 +15,9 @@ import study.section1.order.OrderServiceImpl;
 @Configuration
 public class AppConfig {
 
+    // @Bean memberService -> new MemoryMemberRepositioy()
+    // @Bean orderService -> new MemoryMemberRepositioy()
+
     @Bean
     public MemberService memberService(){
         return new MemberServiceImpl(memberRepository());
