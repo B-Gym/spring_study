@@ -12,6 +12,8 @@ import study.section1.member.MemoryMemberRepository;
 import study.section1.order.OrderService;
 import study.section1.order.OrderServiceImpl;
 
+
+// @Configuration: 바이트코드를 조작하는 CGLIB 기술을 사용하여 싱글톤을 보장
 @Configuration
 public class AppConfig {
 
