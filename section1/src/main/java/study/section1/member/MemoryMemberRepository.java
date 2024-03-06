@@ -1,7 +1,10 @@
 package study.section1.member;
 
+import org.springframework.stereotype.Component;
+
 import java.util.*;
 
+@Component
 public class MemoryMemberRepository implements  MemberRepository{
     private  static Map<Long, Member> store = new HashMap<>();
     @Override
